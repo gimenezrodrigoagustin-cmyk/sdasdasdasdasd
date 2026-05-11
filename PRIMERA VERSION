@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Damiani Ingeniería | Pintura Electrostática</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --accent: #0056b3; /* Azul industrial */
+            --light-gray: #f4f4f4;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            margin: 0;
+            background-color: var(--bg);
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        
+        header { border-bottom: 2px solid var(--text); padding-bottom: 20px; margin-bottom: 50px; }
+        h1 { font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; margin: 0; }
+        
+        section { margin-bottom: 60px; }
+        h2 { font-size: 2rem; font-weight: 700; line-height: 1.2; margin-bottom: 20px; color: var(--text); }
+        p { font-size: 1.1rem; color: #444; }
+        
+        .services-list { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .services-list li { background: var(--light-gray); padding: 15px; border-left: 4px solid var(--accent); font-size: 0.95rem; }
+        
+        .contact-box { background: var(--text); color: white; padding: 30px; border-radius: 4px; text-align: center; }
+        .contact-box a { color: white; text-decoration: underline; font-weight: bold; }
+
+        @media (max-width: 600px) {
+            .services-list { grid-template-columns: 1fr; }
+            h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Ricardo Damiani Ingeniería</h1>
+    </header>
+
+    <section id="quienes-somos">
+        <h2>Más de 35 años impulsando la industria nacional.</h2>
+        <p>En <strong>Ricardo Damiani Ingeniería</strong> nos dedicamos al asesoramiento, desarrollo e ingeniería integral en el rubro de pintura en polvo electrostática. Nuestro compromiso es acompañar a cada cliente con soluciones técnicas de calidad y un servicio personalizado que optimiza cada etapa del proceso productivo.</p>
+    </section>
+
+    <section id="servicios">
+        <h2 style="font-size: 1.2rem; text-transform: uppercase; color: var(--accent);">Nuestros Servicios</h2>
+        <ul class="services-list">
+            <li>Diseño de plantas de aplicación completas.</li>
+            <li>Sistemas de tratamiento de superficies.</li>
+            <li>Hornos de curado y desplaque.</li>
+            <li>Cabinas manuales y automáticas.</li>
+            <li>Sistemas de aspiración y ciclones.</li>
+            <li>Robotización vertical.</li>
+            <li>Transportadores aéreos de cadena.</li>
+            <li>Ingeniería de optimización.</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contact-box">
+        <p>¿Necesita optimizar su planta o iniciar un nuevo proyecto?</p>
+        <a href="mailto:contacto@ricardodamiani.com">contacto@ricardodamiani.com</a>
+    </section>
+
+    <footer style="font-size: 0.8rem; opacity: 0.5; margin-top: 40px; text-align: center;">
+        © 2024 Ricardo Damiani Ingeniería. Todos los derechos reservados.
+    </footer>
+</div>
+
+</body>
+</html>
